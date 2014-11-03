@@ -1,0 +1,380 @@
+/* Button Style */
+
+body {
+    background: #2c3e50 !important;
+    font-family: Tahoma, sans-serif, Arial !important;
+    direction: rtl !important;
+}
+
+.logo {
+    background: url(img/logo.png) no-repeat center;
+    height: 263px;
+    margin-top: 33px;
+    float: left;
+}
+
+.logo1 { 
+    background: url(img/logo1.png) no-repeat center;
+    height: 263px;
+    margin-top: 33px;
+    float: left;	
+}
+
+a{
+  color: #fff;
+  text-decoration: none;
+}
+
+.buybtn{
+    width: 100%;
+    background:#f39c12 !important;
+    background:-webkit-gradient(linear,left top,left bottom,color-stop(#ff8400,0),color-stop(#ff6600,1));
+    background:-webkit-linear-gradient(top, #ff8400 0%, #ff6600 100%);
+    background:-moz-linear-gradient(top, #ff8400 0%, #ff6600 100%);
+    background:-o-linear-gradient(top, #ff8400 0%, #ff6600 100%);
+    background:linear-gradient(top, #ff8400 0%, #ff6600 100%);
+    filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff8400', endColorstr='#ff6600',GradientType=0 );
+    padding-left:20px;
+    padding-right:65px;
+    height:45px;
+    display:inline-block;
+    position:relative;
+    border:1px solid #ff5a00;
+    -webkit-box-shadow:0px 1px 1px rgba(255,255,255,0.8) inset, 1px 1px 3px rgba(0,0,0,0.2), 0px 0px 0px 4px rgba(188,188,188,0.5);
+    -moz-box-shadow:0px 1px 1px rgba(255,255,255,0.8) inset, 1px 1px 3px rgba(0,0,0,0.2), 0px 0px 0px 4px rgba(188,188,188,0.5);
+    box-shadow:0px 1px 1px rgba(255,255,255,0.8) inset, 1px 1px 3px rgba(0,0,0,0.2), 0px 0px 0px 4px rgba(188,188,188,0.5);
+    -webkit-box-shadow:0px 1px 1px rgba(255,255,255,0.8) inset, 1px 1px 3px rgba(0,0,0,0.2);
+    -moz-box-shadow:0px 1px 1px rgba(255,255,255,0.8) inset, 1px 1px 3px rgba(0,0,0,0.2);
+    box-shadow:0px 1px 1px rgba(255,255,255,0.8) inset, 1px 1px 3px rgba(0,0,0,0.2);
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    border-radius:5px;
+    float:left;
+    clear:both;
+    margin:10px 0px;
+    overflow:hidden;
+    -webkit-transition:all 0.3s linear;
+    -moz-transition:all 0.3s linear;
+    -o-transition:all 0.3s linear;
+    transition:all 0.3s linear;
+    text-align: left;
+}
+
+.buybtn-text{
+    padding-top:10px;
+    display:block;
+    font-size:18px;
+    white-space:nowrap;
+    text-shadow:0px 1px 1px rgba(255,255,255,0.3);
+    color:#6e1d08;
+    -webkit-transition:all 0.2s linear;
+    -moz-transition:all 0.2s linear;
+    -o-transition:all 0.2s linear;
+    transition:all 0.2s linear;
+}
+
+.buybtn-hidden-text{
+    display: block;
+    position:absolute;
+    height:100%;
+    top:0px;
+    right:52px;
+    width:0px;
+    background:#6e1d08;
+    text-shadow:0px -1px 1px #363f49;
+    color:#fff;
+    font-size:18px;
+    white-space:normal;
+    text-align:center;
+    overflow:hidden;
+    line-height:42px;
+    -webkit-box-shadow:-1px 0px 1px rgba(255,255,255,0.4), 1px 1px 2px rgba(0,0,0,0.2) inset;
+    -moz-box-shadow:-1px 0px 1px rgba(255,255,255,0.4), 1px 1px 2px rgba(0,0,0,0.2) inset;
+    box-shadow:-1px 0px 1px rgba(255,255,255,0.4), 1px 1px 2px rgba(0,0,0,0.2) inset;
+    -webkit-transition:width 0.3s linear;
+    -moz-transition:width 0.3s linear;
+    -o-transition:width 0.3s linear;
+    transition:width 0.3s linear;
+}
+
+.buybtn-image{
+    position:absolute;
+    right:0px;
+    top:0px;
+    height:100%;
+    width:52px;
+    border-left:1px solid #ff5a00;
+    -webkit-box-shadow:1px 0px 1px rgba(255,255,255,0.4) inset;
+    -moz-box-shadow:1px 0px 1px rgba(255,255,255,0.4) inset;
+    box-shadow:1px 0px 1px rgba(255,255,255,0.4) inset;
+}
+
+.buybtn-image span{
+    width:38px;
+    height:38px;
+    opacity:0.7;
+    position:absolute;
+    left:50%;
+    top:50%;
+    margin:-20px 0px 0px -20px;
+    background:transparent url(img/w.png) no-repeat 75% 55%;
+    -webkit-transition:all 0.3s linear;
+    -moz-transition:all 0.3s linear;
+    -o-transition:all 0.3s linear;
+    transition:all 0.3s linear;
+}
+
+/* Hover Style*/
+
+.buybtn:hover .buybtn-text{
+    color:#fff;
+}
+
+.buybtn:hover .buybtn-hidden-text{
+    width:100px;
+}
+
+.buybtn:hover .buybtn-image span{
+    opacity:1;
+}
+
+
+/* Active Style */
+
+.buybtn:active{
+    background:#ff5a00;
+}
+
+/* Buttons Style */
+
+a.btn {
+    width: 100%;
+    display: inline-block;
+    color: #666;
+    background-color: #eee;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 12px;
+    padding: 10px 30px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border: 1px solid rgba(0,0,0,0.3);
+    border-bottom-width: 3px;
+}
+
+    a.btn:hover {
+        background-color: #e3e3e3;
+        border-color: rgba(0,0,0,0.5);
+    }
+    
+    a.btn:active {
+        background-color: #CCC;
+        border-color: rgba(0,0,0,0.9);
+    }
+
+/* blue button */
+
+a.btn.btn-blue {
+    background-color: #699DB6;
+    border-color: rgba(0,0,0,0.3);
+    text-shadow: 0 1px 0 rgba(0,0,0,0.5);
+    color: #FFF;
+}
+
+    a.btn.btn-blue:hover {
+        background-color: #4F87A2;
+        border-color: rgba(0,0,0,0.5);
+    }
+    
+    a.btn.btn-blue:active {
+        background-color: #3C677B;
+        border-color: rgba(0,0,0,0.9);
+    }
+
+
+.ccol {
+    background: #8CAA27 !important;
+}
+
+.exp {
+    font-family: Tahoma, sans-serif, Arial !important;
+    color: #ddd;
+    text-align: center;
+    padding: 4px;
+    direction: rtl;
+    margin: 10px 0 0 0;
+}
+
+.exp p {
+    background: #0A85C9;
+    border-radius: 6px;
+    border: 1px solid rgba(191, 191, 191, 0.6);
+    padding: 15px;
+    margin: 0 auto;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.col-xs-12 {
+    padding: 0 !important;  
+}
+/*******************
+SELECTION STYLING
+*******************/
+
+::selection {
+    color: #fff;
+    background: #f676b2; /* Safari */
+}
+::-moz-selection {
+    color: #fff;
+    background: #f676b2; /* Firefox */
+}
+
+/*******************
+LOGIN FORM
+*******************/
+
+.login-form {
+    width: 99%;
+    margin: 10px auto;
+    position: relative;
+    z-index:5;
+    
+    background: #f3f3f3;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    
+    box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+    -moz-box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+    -webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+}
+
+/*******************
+HEADER
+*******************/
+
+.login-form .header {
+    padding: 5px 30px 5px 30px;
+}
+
+.login-form .header h1 {
+    font-family: Tahoma, Arial, serif;
+    font-weight: 300;
+    font-size: 28px;
+    line-height:34px;
+    color: #414848;
+    text-shadow: 1px 1px 0 rgba(256,256,256,1.0);
+    margin-bottom: 10px;
+}
+
+.login-form .header h5 {
+    color: #444;
+}
+
+.login-form .header span {
+    font-size: 11px;
+    line-height: 16px;
+    color: #678889;
+    text-shadow: 1px 1px 0 rgba(256,256,256,1.0);
+}
+
+/*******************
+CONTENT
+*******************/
+
+.login-form .content {
+    padding: 0 30px 25px 30px;
+}
+
+/* Input field */
+.login-form .content .input {
+    background: #153A56 !important;
+    text-align: center;
+    width: 98%;
+    padding: 5px 25px;
+    
+    font-family: Tahoma, Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #9d9e9e;
+    text-shadow: 1px 1px 0 rgba(256,256,256,1.0);
+    
+    background: #fff;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    
+    box-shadow: inset 0 1px 3px rgba(0,0,0,0.50);
+    -moz-box-shadow: inset 0 1px 3px rgba(0,0,0,0.50);
+    -webkit-box-shadow: inset 0 1px 3px rgba(0,0,0,0.50);
+}
+
+/* Second input field */
+.login-form .content .password, .login-form .content .pass-icon {
+    margin-top: 10px;
+}
+
+.login-form .content .input:hover {
+    background: #dfe9ec;
+    color: #414848;
+}
+
+.login-form .content .input:focus {
+    background: #dfe9ec;
+    color: #414848;
+    
+    box-shadow: inset 0 1px 2px rgba(0,0,0,0.25);
+    -moz-box-shadow: inset 0 1px 2px rgba(0,0,0,0.25);
+    -webkit-box-shadow: inset 0 1px 2px rgba(0,0,0,0.25);
+}
+
+.user-icon, .pass-icon {
+    width: 46px;
+    height: 47px;
+    display: block;
+    position: absolute;
+    left: 0px;
+    padding-right: 2px;
+    z-index: 3;
+    
+    -moz-border-radius-topleft: 5px;
+    -moz-border-radius-bottomleft: 5px;
+    -webkit-border-top-left-radius: 5px;
+    -webkit-border-bottom-left-radius: 5px;
+}
+
+.user-icon {
+    top:147px; /* Positioning fix for slide-in, got lazy to think up of simpler method. */
+    background: rgba(65,72,72,0.75) url(img/user-icon.png) no-repeat center;  
+}
+
+.pass-icon {
+    top:221px;
+    background: rgba(65,72,72,0.75) url(img/pass-icon.png) no-repeat center;
+}
+
+/* Animation */
+.input, .user-icon, .pass-icon, .button, .register {
+    transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+}
+
+/*******************
+FOOTER
+*******************/
+
+.login-form .footer {
+    padding: 2px 30px 4px 30px;
+    overflow: auto;
+    
+    background: #d4dedf;
+    border-top: 1px solid #fff;
+    
+    box-shadow: inset 0 1px 0 rgba(0,0,0,0.15);
+    -moz-box-shadow: inset 0 1px 0 rgba(0,0,0,0.15);
+    -webkit-box-shadow: inset 0 1px 0 rgba(0,0,0,0.15);
+}
