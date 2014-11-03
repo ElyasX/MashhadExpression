@@ -52,6 +52,6 @@
     <plugins>
     </plugins>
 
-    <icon src="imgs/icon.jpg" width="57" height="57"/>
+    <icon src="img/icon.jpg" width="57" height="57"/>
 
 </widget>
