@@ -20,6 +20,13 @@ body {
     float: left;	
 }
 
+.bold {
+    font-weight: bold;
+    border-radius: 6px;
+    color: #D44E4E !important;
+    text-align: center;
+}
+
 a{
   color: #fff;
   text-decoration: none;
@@ -154,7 +161,7 @@ a.btn {
     background-color: #eee;
     text-transform: uppercase;
     letter-spacing: 2px;
-    font-size: 14px;
+    font-size: 16px;
     padding: 10px 30px;
     border-radius: 5px;
     -moz-border-radius: 5px;
@@ -214,6 +221,7 @@ a.btn.btn-blue {
     margin: 0 auto;
     font-weight: bold;
     letter-spacing: 2px;
+	font-size: 16px;
 }
 
 .col-xs-12 {
@@ -273,10 +281,10 @@ HEADER
     color: #444;
 }
 
-.login-form .header span {
-    font-size: 11px;
+.login-form .header span , .content .col1 {
+    font-size: 14px;
     line-height: 16px;
-    color: #678889;
+    color: #678889 !important;
     text-shadow: 1px 1px 0 rgba(256,256,256,1.0);
 }
 
@@ -286,6 +294,11 @@ CONTENT
 
 .login-form .content {
     padding: 0 30px 25px 30px;
+}
+
+.login-form .content span {
+	color: #444;
+	direction: rtl;
 }
 
 /* Input field */
