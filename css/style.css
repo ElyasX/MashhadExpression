@@ -1,5 +1,5 @@
 body {
-	background: #448ed3 ;
+	background: #448ed3 !important;
 	font-family: Tahoma, Sans-serif, Arial !important;
 }
 .wrap {
@@ -9,8 +9,8 @@ body {
 
 .logo {
     background: url(../img/logo1.png) no-repeat center;
-    height: 263px;
-    margin-top: 33px;
+    height: 236px;
+    margin-top: 0px;
 }
 
 .left {
@@ -19,6 +19,7 @@ body {
 }
 
 .dir {
+	height: 70px !important;
 	text-align: center;
 	padding-top: 15px !important;
 	font-family: Tahoma !important;

@@ -204,6 +204,10 @@ a.btn.btn-blue {
     background: #8CAA27 !important;
 }
 
+.ccol1 {
+    background: #317A4C !important;
+}
+
 .exp {
     font-family: Tahoma, sans-serif, Arial !important;
     color: #ddd;
@@ -245,6 +249,7 @@ LOGIN FORM
 *******************/
 
 .login-form {
+    direction: rtl;
     width: 99%;
     margin: 10px auto;
     position: relative;
@@ -264,7 +269,9 @@ HEADER
 *******************/
 
 .login-form .header {
+    text-align: center;
     padding: 5px 30px 5px 30px;
+    direction: rtl;
 }
 
 .login-form .header h1 {
@@ -275,6 +282,18 @@ HEADER
     color: #414848;
     text-shadow: 1px 1px 0 rgba(256,256,256,1.0);
     margin-bottom: 10px;
+    direction: rtl;
+}
+
+.login-form .header h4 {
+    font-family: Tahoma, Arial, serif;
+    font-weight: 300;
+    font-size: 20px;
+    line-height:34px;
+    color: #414848;
+    text-shadow: 1px 1px 0 rgba(256,256,256,1.0);
+    margin-bottom: 10px;
+    direction: rtl;
 }
 
 .login-form .header h5 {
@@ -390,4 +409,9 @@ FOOTER
     box-shadow: inset 0 1px 0 rgba(0,0,0,0.15);
     -moz-box-shadow: inset 0 1px 0 rgba(0,0,0,0.15);
     -webkit-box-shadow: inset 0 1px 0 rgba(0,0,0,0.15);
+}
+
+.csize {
+    margin: 10px auto;
+    width: 130px;
 }
