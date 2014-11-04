@@ -26,7 +26,10 @@
 			function mine() {
 				var name = document.getElementById("name").value;
 				if ( name == "" ) { alert("نام را وارد نمایید . . .");}
-				else if ( name != null) { alert("سلام  " + name + " , چطوری یره :)"); }
+				else if ( name != null) { 
+					alert("سلام  " + name + " , چطوری یره :)");
+					document.getElementById('myForm').action = "kalamat.html"; //will set it }
+				}
 			}
 		</script>
 
@@ -49,7 +52,7 @@
 
 				</div>
 
-				<form action="kalamat.html">
+				<form id="myForm">
 
 					<input class="dir" id="name" type="text" placeholder="نام خود را وارد نمایید" required>
 
