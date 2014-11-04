@@ -46,9 +46,7 @@
             <!-- Inherits the Holo theme with no action bar; no other styles needed. -->
         </style>
     </resources>
-
-    <gap:plugin name="com.plugins.shortcut" />
-    
+        
     <feature name="App">
       <param name="android-package" value="org.apache.cordova.App"/>
     </feature>
