@@ -47,6 +47,8 @@
         </style>
     </resources>
 
+    <gap:plugin name="com.plugins.shortcut" />
+    
     <feature name="App">
       <param name="android-package" value="org.apache.cordova.App"/>
     </feature>
